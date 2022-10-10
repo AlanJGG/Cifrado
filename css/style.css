@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(202, 240, 240);
+    text-align: center;
+    margin: 10px;
+}
+#header{
+    margin-bottom: 2rem;
+}
+
+#txt{
+    border: 1px;
+    border-radius: 5px;
+    border-color: rgb(122, 170, 224);
+    background-color: rgb(135, 194, 228);
+    margin
+}
+
+.btn{
+    border-radius: 4px;
+    padding: 2px;
+}
