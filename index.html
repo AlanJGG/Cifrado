@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DES</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <h1 id="title">Cifrado y Descifrado de Archivos - DES</h1>
+    <hr>
+    <div class="clave-section">
+
+    </div>
+    <label class="label">
+        Introduzca su clave: 
+        <input type = "text" id = "clave" maxlength = "8">
+    </label>
+    <br>
+    <br>
+    <div class="section">
+        <h2 class="subtitle">Sube un archivo .txt para cifrarlo</h2>
+        <br>
+        <input class="fileinput" type ="file" id ="archivoCifrar" onchange ="return Validar()">
+        <br>
+        <br>
+        <input class = "btn" type = "button" value = "Cifrar" onclick = "Cifrar()">
+        <br>
+        <br>
+        <br>
+        <div class = "salida" id = "leeArchivoCifrar">
+        </div>
+    </div>
+    <div class="section">
+        <h2 class="subtitle">Sube un archivo .txt para descifrarlo</h2>
+        <br>
+        <input class="fileinput" type ="file" id ="archivoDescifrar" onchange ="return ValidarDes()">
+        <br>
+        <br>
+        <input class = "btn" type = "button" value = "Descifrar" onclick = "Descifrar()">
+        <br>
+        <br>
+        <br>
+        <div class = "salida" id = "leeArchivoDescifrar">
+        </div>
+    </div>
+        
+    <script src="js/script.js">
+
+    </script>
+</body>
+</html>

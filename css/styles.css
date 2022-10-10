@@ -1,0 +1,33 @@
+*{
+
+    background-color: rgb(179, 190, 236);
+    text-align: center;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#title{
+    padding: 1rem;
+    font-size: larger;
+    background-color: rgb(115, 183, 223);
+}
+
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.btn:hover{
+    background-color: rgb(89, 89, 145);
+}
+
+.clave-section{
+    margin: 2rem;
+}
+.section{
+    display:inline-block;
+    margin: 3rem;
+    
+}
+
